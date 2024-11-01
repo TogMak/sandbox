@@ -1,0 +1,114 @@
+body {
+	padding-left: 20em;   
+	padding-right: 20em; 
+	padding-top: 5em;  
+	padding-bottom: 5em; 
+	display: flex;  
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center;  
+	font-family: "Trirong", serif;
+	background-color: #606c38;
+}
+
+a {
+	color: #bc6c25; 
+}
+
+a:hover {
+	color: #dda15e; 
+}
+
+h1 {
+	display: block;
+	font-size: 1.5em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #bc6c25;
+}
+
+h2 {
+	display: block;
+	font-size: 1.25em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #bc6c25;
+}
+
+h3 {
+	display: block;
+	font-size: 1em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #bc6c25;
+}
+
+h4 {
+	display: block;
+	font-size: 0.75em;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #bc6c25;
+}
+
+section {
+	padding: 5%;
+}
+
+.header {
+	background: #283618;
+	width: 100%;
+}
+
+.footer {
+	background: #283618;
+	width: 100%;
+	color: #e8f1f2;
+}
+
+.main {
+	text-align: left;
+	background: #faedcd;
+	color: #283618;
+}
+
+.navigation {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end; 
+	list-style: none;
+	margin: 0; 
+	background: #283618;
+}
+
+.navigation a {
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	color: #e8f1f2;
+}
+
+.navigation a:hover {
+	background: #bc6c25;
+}
+
+@media all and (min-width: 0px) {
+	.aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+	.main    { flex: 3 0px; }
+	.footer  { order: 4; }
+}
